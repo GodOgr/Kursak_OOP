@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Object" Collapsed="true">
+    <Position X="4.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQIIkAAAAAAAAQAAAQAAAAAAAAAAAIAAAAAAIAEQBA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sstrong">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Object" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="1.562" />
+        <Point X="5.25" Y="2.115" />
+        <Point X="1.25" Y="2.115" />
+        <Point X="1.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQIIkAAAAAAAAQAAQQgAAAAAAAAAAIAAABQAIAEQBA=</HashCode>
+      <FileName>Sstrong.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sint">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIIkAAAEAAAAQAAAQABAAAAAAAAAIAAABQAIAEQBA=</HashCode>
+      <FileName>Sint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sdob">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Object" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="1.562" />
+        <Point X="5.25" Y="2.125" />
+        <Point X="3" Y="2.125" />
+        <Point X="3" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQIIkAAAAAAACQAAAQABAAAAAAAAAIAAAIQAIAEQBI=</HashCode>
+      <FileName>Sdob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fraction">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="~Fraction" Hidden="true" />
+      <Method Name="abs_frac" Hidden="true" />
+      <Method Name="copy" Hidden="true" />
+      <Method Name="f_div" Hidden="true" />
+      <Method Name="f_minus" Hidden="true" />
+      <Method Name="f_mult" Hidden="true" />
+      <Method Name="f_plus" Hidden="true" />
+      <Method Name="Fraction" Hidden="true" />
+      <Method Name="fraction_to_string" Hidden="true" />
+      <Method Name="get_id" Hidden="true" />
+      <Method Name="load_from_str" Hidden="true" />
+      <Method Name="move" Hidden="true" />
+      <Method Name="nod" Hidden="true" />
+      <Method Name="nok" Hidden="true" />
+      <Method Name="normalize" Hidden="true" />
+      <Method Name="operator-" Hidden="true" />
+      <Method Name="operator double" Hidden="true" />
+      <Method Name="operator*" Hidden="true" />
+      <Method Name="operator*=" Hidden="true" />
+      <Method Name="operator/" Hidden="true" />
+      <Method Name="operator/=" Hidden="true" />
+      <Method Name="operator+" Hidden="true" />
+      <Method Name="operator+=" Hidden="true" />
+      <Method Name="operator&lt;" Hidden="true" />
+      <Method Name="operator&lt;=" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="operator-=" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+      <Method Name="operator&gt;" Hidden="true" />
+      <Method Name="operator&gt;=" Hidden="true" />
+      <Method Name="out" Hidden="true" />
+      <Method Name="set_denominator" Hidden="true" />
+      <Method Name="set_numerator" Hidden="true" />
+      <Method Name="set_pos_neg" Hidden="true" />
+      <Method Name="set_whole" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQIIkAAAAAQQBSABAUIIUAAABAACAeEgAAgAIwEQBI=</HashCode>
+      <FileName>Real.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="List">
+    <Position X="10.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAhCAAAAAEgBEIAQkABQQIAAAAAEAAAgFAAAAAAgQII=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="13" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAIAEQAAAAAAAAAMAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Array">
+    <Position X="15.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAKAAAAAAACAAAAIggBAAAAAABAAAgAAAAAQAkAEA=</HashCode>
+      <FileName>Array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
